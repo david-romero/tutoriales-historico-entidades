@@ -1,0 +1,46 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   .classpath
+#	new file:   .gitattributes
+#	modified:   .gitignore
+#	new file:   .project
+#	new file:   .settings/.jsdtscope
+#	new file:   .settings/org.eclipse.core.resources.prefs
+#	new file:   .settings/org.eclipse.jdt.core.prefs
+#	new file:   .settings/org.eclipse.jpt.core.prefs
+#	new file:   .settings/org.eclipse.m2e.core.prefs
+#	new file:   .settings/org.eclipse.wst.common.component
+#	new file:   .settings/org.eclipse.wst.common.project.facet.core.prefs.xml
+#	new file:   .settings/org.eclipse.wst.common.project.facet.core.xml
+#	new file:   .settings/org.eclipse.wst.jsdt.ui.superType.container
+#	new file:   .settings/org.eclipse.wst.jsdt.ui.superType.name
+#	new file:   .settings/org.eclipse.wst.validation.prefs
+#	new file:   pom.xml
+#	new file:   src/main/java/META-INF/persistence.xml
+#	new file:   src/main/java/com/david/tutoriales/config/AppConfig.java
+#	new file:   src/main/java/com/david/tutoriales/config/CsrfHeaderFilter.java
+#	new file:   src/main/java/com/david/tutoriales/config/DbConfig.java
+#	new file:   src/main/java/com/david/tutoriales/config/DbConfigHistoricos.java
+#	new file:   src/main/java/com/david/tutoriales/config/SecurityConfig.java
+#	new file:   src/main/java/com/david/tutoriales/config/core/SpringMvcInitializer.java
+#	new file:   src/main/java/com/david/tutoriales/config/core/SpringSecurityInitializer.java
+#	new file:   src/main/java/com/david/tutoriales/config/core/WebConfig.java
+#	new file:   src/main/java/com/david/tutoriales/model/Entidad.java
+#	new file:   src/main/java/com/david/tutoriales/model/Historico.java
+#	new file:   src/main/java/com/david/tutoriales/model/Usuario.java
+#	new file:   src/main/java/com/david/tutoriales/persistencia/LocalDateTimePersistenceConverter.java
+#	new file:   src/main/java/com/david/tutoriales/persistencia/UsuarioRepository.java
+#	new file:   src/main/java/com/david/tutoriales/services/CRUD.java
+#	new file:   src/main/java/com/david/tutoriales/services/CustomUserDetailsService.java
+#	new file:   src/main/java/com/david/tutoriales/services/HistoricoListener.java
+#	new file:   src/main/java/com/david/tutoriales/services/UsuarioService.java
+#	new file:   src/main/resources/log4j.properties
+#	new file:   src/test/java/com/david/tutoriales/AppTestConfig.java
+#	new file:   src/test/java/com/david/tutoriales/HistoricoTest.java
+#
+
