@@ -2,6 +2,7 @@ package com.david.tutoriales.model;
 
 import java.time.LocalDateTime;
 
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.format.annotation.DateTimeFormat.ISO;
@@ -12,7 +13,7 @@ import com.david.tutoriales.services.CRUD;
 @Document(collection="historico")
 public class Historico<E extends Entidad> {
 
-	@org.springframework.data.annotation.Id
+	@Id
 	private String id;
 	@DateTimeFormat(iso = ISO.DATE_TIME)
 	private LocalDateTime date;
