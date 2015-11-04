@@ -27,7 +27,11 @@ public class LocalDateTimePersistenceConverter implements
 
     @Override
     public LocalDateTime convertToEntityAttribute(java.sql.Timestamp databaseValue) {
-        return databaseValue.toLocalDateTime();
+    	if (databaseValue != null){
+    		return databaseValue.toLocalDateTime();
+    	}else{
+    		return null;
+    	}
     }
 
 }

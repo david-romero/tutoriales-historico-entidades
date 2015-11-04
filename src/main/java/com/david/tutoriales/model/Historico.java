@@ -104,6 +104,15 @@ public class Historico<E extends Entidad> {
 	public void setClassName(String className) {
 		this.className = className;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Historico [id=" + id + ", date=" + date + ", usuarioEjecutor="
+				+ usuarioEjecutor + ", accion=" + accion + ", entidad="
+				+ entidad + ", className=" + className + "]";
+	}
+	
 	
 	
 }
